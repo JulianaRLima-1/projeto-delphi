@@ -3,7 +3,7 @@ program progCadastro;
 uses
   Vcl.Forms,
   uPrincipal in 'uPrincipal.pas' {Form1},
-  uCadClientes in 'uCadClientes.pas' {frmCadClientes};
+  uClientes in 'uClientes.pas' {Form2};
 
 {$R *.res}
 
@@ -11,6 +11,6 @@ begin
   Application.Initialize;
   Application.MainFormOnTaskbar := True;
   Application.CreateForm(TForm1, Form1);
-  Application.CreateForm(TfrmCadClientes, frmCadClientes);
+  Application.CreateForm(TForm2, Form2);
   Application.Run;
 end.

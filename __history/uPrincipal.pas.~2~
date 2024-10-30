@@ -12,7 +12,6 @@ type
     mniCadastro: TMenuItem;
     mniClientes: TMenuItem;
     mniVendas: TMenuItem;
-    procedure mniClientesClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -25,12 +24,5 @@ var
 implementation
 
 {$R *.dfm}
-
-uses uCadClientes;
-
-procedure TForm1.mniClientesClick(Sender: TObject);
-begin
-frmCadClientes.ShowModal;
-end;
 
 end.
