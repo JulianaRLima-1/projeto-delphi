@@ -3,7 +3,9 @@ program progCadastro;
 uses
   Vcl.Forms,
   uPrincipal in 'uPrincipal.pas' {Form1},
-  uCadClientes in 'uCadClientes.pas' {frmCadClientes};
+  uCadClientes in 'uCadClientes.pas' {frmCadClientes},
+  uFrmBaseCad in 'uFrmBaseCad.pas' {frmBaseCad},
+  uFrmBaseGrid in 'uFrmBaseGrid.pas' {frmBaseGrid};
 
 {$R *.res}
 
