@@ -26,13 +26,11 @@ implementation
 
 {$R *.dfm}
 
-uses uCadClientes, ufrmListarClientes;
+uses uCadClientes;
 
 procedure TForm1.mniClientesClick(Sender: TObject);
 begin
-frmListarClientes := TfrmListarClientes.Create(application);
-frmListarClientes.ShowModal;
-frmListarClientes.Free;
+frmCadClientes.ShowModal;
 end;
 
 end.
