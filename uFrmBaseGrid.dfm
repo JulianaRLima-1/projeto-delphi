@@ -19,16 +19,15 @@ object frmBaseGrid: TfrmBaseGrid
     Align = alClient
     BevelOuter = bvNone
     TabOrder = 0
-    ExplicitLeft = 264
-    ExplicitTop = 64
-    ExplicitWidth = 185
-    ExplicitHeight = 41
+    ExplicitWidth = 624
+    ExplicitHeight = 400
     object Grid: TDBGrid
       Left = 0
       Top = 0
       Width = 628
       Height = 401
       Align = alClient
+      DataSource = dsDados
       TabOrder = 0
       TitleFont.Charset = DEFAULT_CHARSET
       TitleFont.Color = clWindowText
@@ -45,47 +44,50 @@ object frmBaseGrid: TfrmBaseGrid
     Align = alBottom
     BevelOuter = bvNone
     TabOrder = 1
-    ExplicitLeft = 184
-    ExplicitTop = 288
-    ExplicitWidth = 185
+    ExplicitTop = 400
+    ExplicitWidth = 624
     DesignSize = (
       628
       41)
     object btnFechar: TButton
-      Left = 536
+      Left = 532
       Top = 6
       Width = 75
       Height = 25
       Anchors = [akTop, akRight]
       Caption = '&Fechar'
       TabOrder = 0
+      ExplicitLeft = 528
     end
     object btnEditar: TButton
-      Left = 440
+      Left = 436
       Top = 6
       Width = 75
       Height = 25
       Anchors = [akTop, akRight]
       Caption = '&Editar'
       TabOrder = 1
+      ExplicitLeft = 432
     end
     object btnExcluir: TButton
-      Left = 344
+      Left = 340
       Top = 6
       Width = 75
       Height = 25
       Anchors = [akTop, akRight]
       Caption = 'E&xcluir'
       TabOrder = 2
+      ExplicitLeft = 336
     end
     object btnQuatro: TButton
-      Left = 248
+      Left = 244
       Top = 6
       Width = 75
       Height = 25
       Anchors = [akTop, akRight]
       Caption = 'Button1'
       TabOrder = 3
+      ExplicitLeft = 240
     end
   end
   object dsDados: TDataSource

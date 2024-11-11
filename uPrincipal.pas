@@ -26,13 +26,13 @@ implementation
 
 {$R *.dfm}
 
-uses uCadClientes, uFrmBaseGrid;
+uses uCadClientes, ufrmListarClientes;
 
 procedure TForm1.mniClientesClick(Sender: TObject);
 begin
-frmBaseGrid:=TfrmBaseGrid.Create(application);
-frmBaseGrid.ShowModal;
-frmBaseGrid.Free;
+frmListarClientes := TfrmListarClientes.Create(application);
+frmListarClientes.ShowModal;
+frmListarClientes.Free;
 end;
 
 end.
