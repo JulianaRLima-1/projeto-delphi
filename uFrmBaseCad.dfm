@@ -19,15 +19,14 @@ object frmBaseCad: TfrmBaseCad
     Align = alBottom
     BevelOuter = bvNone
     TabOrder = 0
-    ExplicitLeft = 184
-    ExplicitTop = 288
-    ExplicitWidth = 185
+    ExplicitTop = 397
+    ExplicitWidth = 626
     object btnCancelar: TButton
       Left = 440
       Top = 6
       Width = 75
       Height = 25
-      Caption = '&Cancelar'
+      Action = acCancelar
       TabOrder = 0
     end
     object btnOk: TButton
@@ -35,7 +34,7 @@ object frmBaseCad: TfrmBaseCad
       Top = 6
       Width = 75
       Height = 25
-      Caption = '&Ok'
+      Action = acOk
       TabOrder = 1
     end
   end
@@ -47,9 +46,17 @@ object frmBaseCad: TfrmBaseCad
     Align = alClient
     BevelOuter = bvNone
     TabOrder = 1
-    ExplicitLeft = 264
-    ExplicitTop = 64
-    ExplicitWidth = 185
-    ExplicitHeight = 41
+    ExplicitWidth = 626
+    ExplicitHeight = 397
+  end
+  object acGeral: TActionList
+    Left = 520
+    Top = 40
+    object acCancelar: TAction
+      Caption = '&Cancelar'
+    end
+    object acOk: TAction
+      Caption = '&Ok'
+    end
   end
 end
